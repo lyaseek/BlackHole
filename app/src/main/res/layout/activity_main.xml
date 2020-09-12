@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:contentDescription="@string/black_hole"
+            android:src="@mipmap/black_hole" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:fontFamily="monospace"
+            android:text="@string/black_hole_quiz_how_well_do_you_know_nature_s_weirdest_creations"
+            android:textColor="@color/colorText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/_1_the_point_through_to_represent_the_center_of_a_black_hole_is_known_as"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/rg_1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp">
+
+            <RadioButton
+                android:id="@+id/button1_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:clickable="true"
+                android:text="@string/infinitum"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button1_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:clickable="true"
+                android:text="@string/singularity"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button1_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:clickable="true"
+                android:text="@string/centrality"
+                android:textColor="@color/colorText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/_2_general_relativity_predicts_that_black_holes_have"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/rg_2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp">
+
+            <RadioButton
+                android:id="@+id/button2_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/infinite_density"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button2_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/infinite_mass"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button2_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/infinite_volume"
+                android:textColor="@color/colorText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/when_stars_die_they_become_black_hole_if_they_have_masses_of_at_least"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/rg_3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp">
+
+            <RadioButton
+                android:id="@+id/button3_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/half_the_mass_of_the_sun"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button3_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/three_times_the_mass_of_the_sun"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button3_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/twice_the_mass_of_the_sun"
+                android:textColor="@color/colorText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/_4_the_object_thought_to_be_a_supermassive_black_hole_at_the_centre_of_the_milky_way_galaxy_is_known_as"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/rg_4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp">
+
+            <RadioButton
+                android:id="@+id/button4_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/alpha_centauri"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button4_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/sagittarius_a"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button4_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/eta_carinae"
+                android:textColor="@color/colorText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/_5_quasars_are_distant_galaxies_whose_central_regions_are_thought_to_contain"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/rg_5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp">
+
+            <RadioButton
+                android:id="@+id/button5_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/a_supermassive_black_hole"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button5_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/a_black_hole_that_is_both_supermassive_and_active"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button5_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/an_active_black_hole"
+                android:textColor="@color/colorText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/_6_the_event_horizon_of_a_black_hole_represents"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/rg_6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp">
+
+            <RadioButton
+                android:id="@+id/button6_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/the_density_limit_of_a_black_hole"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button6_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/the_moment_when_the_black_hole_formed"
+                android:textColor="@color/colorText" />
+
+            <RadioButton
+                android:id="@+id/button6_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorText"
+                android:text="@string/the_boundary_beyond_which_nothing_can_escape"
+                android:textColor="@color/colorText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+
+</ScrollView>
